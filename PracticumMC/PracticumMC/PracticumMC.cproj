@@ -119,12 +119,16 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Week1\B2\Knipperenled.c">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="Week1\main.c">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Week1" />
+    <Folder Include="Week1\B2" />
   </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
 </Project>
