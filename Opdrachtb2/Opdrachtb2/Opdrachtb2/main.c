@@ -16,7 +16,7 @@ int main( void ){
 		
 	while(1){
 		if(PINC == 0x01){
-			PORTD = 0x01;
+			PORTD = 0x80;
 			wait(500);
 			PORTD = 0x00;
 			wait(500);
