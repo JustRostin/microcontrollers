@@ -13,12 +13,15 @@ void wait(int ms);
 
 int main(void)
 {
+	/* sets D to output */
 	DDRD = 0xFF;
 	
     while(1)
     {
+		/* turns LED D.7 on and rest off*/
         PORTD = 0x80;
 		wait(500);
+		/* turns LED D.8 on and rest off*/
 		PORTD = 0x40;
 		wait(500);
     }

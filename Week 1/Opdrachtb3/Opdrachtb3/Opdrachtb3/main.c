@@ -11,10 +11,12 @@
 
 /*Main function that will turn a LED on when the button is pressed */
 int main( void ){
+	/* turns D to output and C to input*/
 	DDRD = 0b11111111;
 	DDRC = 0b00000000;
 		
 	while(1){
+		/* checks if C.0 has been pushed. If so, LED D.7 will blink*/
 		if(PINC == 0x01){
 			PORTD = 0x80;
 			wait(500);

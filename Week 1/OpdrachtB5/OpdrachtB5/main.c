@@ -11,11 +11,36 @@
 
 void wait(int ms);
 
+#define timeDelay 800
+
+typedef struct {
+		char state;
+		int delay;
+	} STATE_AND_DELAY_STRUCT;
+
+STATE_AND_DELAY_STRUCT pattern[] = {
+	{0x01, timeDelay}, {0x03, timeDelay}, {0x07, timeDelay}, {0x0F, timeDelay}, {0x1F, timeDelay}, {0x3F, timeDelay}, {0x7F, timeDelay},{0xFF, timeDelay}, {0x7F, timeDelay}, {0x3F, timeDelay}, {0x1F, timeDelay}, {0x0F, timeDelay}, {0x07, timeDelay}, {0x03, timeDelay}, {0x01, timeDelay},{0x00, 0x00}
+	
+	};
+
 int main(void)
 {
+	DDRA = 0xFF;
+	DDRB = 0xFF;
+	DDRC = 0xFF;
+	DDRD = 0xFF;
     while(1)
     {
-		
+		int index = 0;
+		while(pattern[index].delay > 0){
+			PORTA = pattern[index].state;
+			PORTB = pattern[index].state;
+			PORTC = pattern[index].state;
+			PORTD = pattern[index].state;
+			
+			wait(pattern[index].delay);
+			index++;
+		}
     }
 }
 

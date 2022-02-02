@@ -13,10 +13,12 @@ void wait(int ms);
 
 int main(void)
 {
+	/* sets D to output*/
 	DDRD = 0xFF;
 	
     while(1)
     {
+		/* will turn the LED on D on and off in a sequence */
         for(int i = 0; i <= 7; i++){
 			PORTD = 0b1 << i;
 			wait(250);
