@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "PracticumMC", "PracticumMC\PracticumMC.cproj", "{2285C48D-296E-43FD-A7B6-69885F64CFFD}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "opdrachtb2", "opdrachtb2\opdrachtb2.cproj", "{2E9E0B49-7231-4D5C-BB45-B62D092743E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -15,6 +17,10 @@ Global
 		{2285C48D-296E-43FD-A7B6-69885F64CFFD}.Debug|AVR.Build.0 = Debug|AVR
 		{2285C48D-296E-43FD-A7B6-69885F64CFFD}.Release|AVR.ActiveCfg = Release|AVR
 		{2285C48D-296E-43FD-A7B6-69885F64CFFD}.Release|AVR.Build.0 = Release|AVR
+		{2E9E0B49-7231-4D5C-BB45-B62D092743E5}.Debug|AVR.ActiveCfg = Debug|AVR
+		{2E9E0B49-7231-4D5C-BB45-B62D092743E5}.Debug|AVR.Build.0 = Debug|AVR
+		{2E9E0B49-7231-4D5C-BB45-B62D092743E5}.Release|AVR.ActiveCfg = Release|AVR
+		{2E9E0B49-7231-4D5C-BB45-B62D092743E5}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>7.0</ProjectVersion>
     <ToolchainName>com.microchip.xc8</ToolchainName>
-    <ProjectGuid>2285C48D-296E-43FD-A7B6-69885F64CFFD</ProjectGuid>
+    <ProjectGuid>{2e9e0b49-7231-4d5c-bb45-b62d092743e5}</ProjectGuid>
     <avrdevice>ATmega128</avrdevice>
     <avrdeviceseries>none</avrdeviceseries>
     <OutputType>Executable</OutputType>
@@ -15,6 +15,47 @@
     <AssemblyName>opdrachtb2</AssemblyName>
     <Name>opdrachtb2</Name>
     <RootNamespace>opdrachtb2</RootNamespace>
+    <ToolchainFlavour>XC8_2.31</ToolchainFlavour>
+    <KeepTimersRunning>true</KeepTimersRunning>
+    <OverrideVtor>false</OverrideVtor>
+    <CacheFlash>true</CacheFlash>
+    <ProgFlashFromRam>true</ProgFlashFromRam>
+    <RamSnippetAddress>0x20000000</RamSnippetAddress>
+    <UncachedRange />
+    <preserveEEPROM>true</preserveEEPROM>
+    <OverrideVtorValue>exception_table</OverrideVtorValue>
+    <BootSegment>2</BootSegment>
+    <ResetRule>0</ResetRule>
+    <eraseonlaunchrule>0</eraseonlaunchrule>
+    <EraseKey />
+    <AsfFrameworkConfig>
+      <framework-data xmlns="">
+  <options />
+  <configurations />
+  <files />
+  <documentation help="" />
+  <offline-documentation help="" />
+  <dependencies>
+    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.49.1" />
+  </dependencies>
+</framework-data>
+    </AsfFrameworkConfig>
+    <avrtool>com.atmel.avrdbg.tool.atmelice</avrtool>
+    <avrtoolserialnumber>J41800088662</avrtoolserialnumber>
+    <avrdeviceexpectedsignature>0x1E9702</avrdeviceexpectedsignature>
+    <com_atmel_avrdbg_tool_atmelice>
+      <ToolOptions>
+        <InterfaceProperties>
+          <JtagDbgClock>2000000</JtagDbgClock>
+        </InterfaceProperties>
+        <InterfaceName>JTAG</InterfaceName>
+      </ToolOptions>
+      <ToolType>com.atmel.avrdbg.tool.atmelice</ToolType>
+      <ToolNumber>J41800088662</ToolNumber>
+      <ToolName>Atmel-ICE</ToolName>
+    </com_atmel_avrdbg_tool_atmelice>
+    <avrtoolinterface>JTAG</avrtoolinterface>
+    <avrtoolinterfaceclock>2000000</avrtoolinterfaceclock>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings />
@@ -24,6 +65,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="main.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="main.h">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>
