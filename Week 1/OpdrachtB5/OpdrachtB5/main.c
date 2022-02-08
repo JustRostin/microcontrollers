@@ -13,11 +13,13 @@ void wait(int ms);
 
 #define timeDelay 800
 
+/* struct for saving a pattern*/
 typedef struct {
 		char state;
 		int delay;
 	} STATE_AND_DELAY_STRUCT;
 
+/* pattern array to program pattern*/
 STATE_AND_DELAY_STRUCT pattern[] = {
 	{0x01, timeDelay}, {0x03, timeDelay}, {0x07, timeDelay}, {0x0F, timeDelay}, {0x1F, timeDelay}, {0x3F, timeDelay}, {0x7F, timeDelay},{0xFF, timeDelay}, {0x7F, timeDelay}, {0x3F, timeDelay}, {0x1F, timeDelay}, {0x0F, timeDelay}, {0x07, timeDelay}, {0x03, timeDelay}, {0x01, timeDelay},{0x00, 0x00}
 	
@@ -25,6 +27,7 @@ STATE_AND_DELAY_STRUCT pattern[] = {
 
 int main(void)
 {
+	/* turning all ports to output*/
 	DDRA = 0xFF;
 	DDRB = 0xFF;
 	DDRC = 0xFF;
@@ -32,6 +35,8 @@ int main(void)
     while(1)
     {
 		int index = 0;
+		
+		/* playing the pattern */
 		while(pattern[index].delay > 0){
 			PORTA = pattern[index].state;
 			PORTB = pattern[index].state;
