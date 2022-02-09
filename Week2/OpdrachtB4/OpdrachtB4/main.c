@@ -11,6 +11,7 @@
 
 void wait(int ms);
 
+/* pattern for display*/
 char pattern[] = {
 	0b00000001,
 	0b00000010,
@@ -30,6 +31,7 @@ int main(void)
     /* Replace with your application code */
     while (1) 
     {
+		/* shows the made pattern */
 		for(int i = 0; i < sizeofArray; i++){
 			PORTC = pattern[i];
 			wait(200);
