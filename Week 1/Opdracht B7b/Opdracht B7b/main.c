@@ -42,7 +42,6 @@ void setCharliePlexingLed(int lednr){
 	DDRA = type[lednr -1].io;
 	PORTA = type[lednr -1].value;
 	
-	
 }
 
 void wait( int ms )
