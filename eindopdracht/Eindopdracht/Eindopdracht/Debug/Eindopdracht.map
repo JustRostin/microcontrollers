@@ -2,14 +2,22 @@ Archive member included to satisfy reference by file (symbol)
 
 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_exit.o)
                               D:/ProgrammFilesD/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega2560/avr6/crtatmega2560.o (exit)
+d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_copy_data.o)
+                              ServoDriver.o (__do_copy_data)
+d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_clear_bss.o)
+                              main.o (__do_clear_bss)
 
 Discarded input sections
 
  .data          0x00000000        0x0 D:/ProgrammFilesD/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega2560/avr6/crtatmega2560.o
  .bss           0x00000000        0x0 D:/ProgrammFilesD/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega2560/avr6/crtatmega2560.o
+ .text          0x00000000        0x0 BM.o
+ .data          0x00000000        0x0 BM.o
+ .bss           0x00000000        0x0 BM.o
  .text          0x00000000        0x0 main.o
  .data          0x00000000        0x0 main.o
  .bss           0x00000000        0x0 main.o
+ .bss.speed     0x00000000        0x2 main.o
  .text          0x00000000        0x0 ServoDriver.o
  .data          0x00000000        0x0 ServoDriver.o
  .bss           0x00000000        0x0 ServoDriver.o
@@ -29,6 +37,38 @@ Discarded input sections
                 0x00000000        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_exit.o)
  .text.libgcc.fixed
                 0x00000000        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_clear_bss.o)
 
 Memory Configuration
 
@@ -46,6 +86,7 @@ Linker script and memory map
 
 Address of section .data set to 0x800200
 LOAD D:/ProgrammFilesD/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega2560/avr6/crtatmega2560.o
+LOAD BM.o
 LOAD main.o
 LOAD ServoDriver.o
 START GROUP
@@ -157,7 +198,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000      0x242
+.text           0x00000000      0x29a
  *(.vectors)
  .vectors       0x00000000       0xe4 D:/ProgrammFilesD/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega2560/avr6/crtatmega2560.o
                 0x00000000                __vector_default
@@ -198,6 +239,10 @@ END GROUP
  *(.init3)
  *(.init3)
  *(.init4)
+ .init4         0x000000f4       0x1a d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_copy_data.o)
+                0x000000f4                __do_copy_data
+ .init4         0x0000010e       0x10 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_clear_bss.o)
+                0x0000010e                __do_clear_bss
  *(.init4)
  *(.init5)
  *(.init5)
@@ -208,84 +253,89 @@ END GROUP
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x000000f4        0x4 D:/ProgrammFilesD/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega2560/avr6/crtatmega2560.o
+ .init9         0x0000011e        0x4 D:/ProgrammFilesD/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega2560/avr6/crtatmega2560.o
  *(.init9)
  *(.text)
- .text          0x000000f8        0x2 D:/ProgrammFilesD/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega2560/avr6/crtatmega2560.o
-                0x000000f8                __vector_38
-                0x000000f8                __vector_22
-                0x000000f8                __vector_28
-                0x000000f8                __vector_1
-                0x000000f8                __vector_32
-                0x000000f8                __vector_34
-                0x000000f8                __vector_24
-                0x000000f8                __vector_12
-                0x000000f8                __vector_55
-                0x000000f8                __vector_46
-                0x000000f8                __bad_interrupt
-                0x000000f8                __vector_6
-                0x000000f8                __vector_31
-                0x000000f8                __vector_35
-                0x000000f8                __vector_39
-                0x000000f8                __vector_3
-                0x000000f8                __vector_23
-                0x000000f8                __vector_30
-                0x000000f8                __vector_45
-                0x000000f8                __vector_25
-                0x000000f8                __vector_11
-                0x000000f8                __vector_54
-                0x000000f8                __vector_13
-                0x000000f8                __vector_17
-                0x000000f8                __vector_19
-                0x000000f8                __vector_56
-                0x000000f8                __vector_7
-                0x000000f8                __vector_49
-                0x000000f8                __vector_41
-                0x000000f8                __vector_43
-                0x000000f8                __vector_27
-                0x000000f8                __vector_5
-                0x000000f8                __vector_33
-                0x000000f8                __vector_47
-                0x000000f8                __vector_52
-                0x000000f8                __vector_37
-                0x000000f8                __vector_4
-                0x000000f8                __vector_44
-                0x000000f8                __vector_51
-                0x000000f8                __vector_9
-                0x000000f8                __vector_2
-                0x000000f8                __vector_21
-                0x000000f8                __vector_15
-                0x000000f8                __vector_36
-                0x000000f8                __vector_29
-                0x000000f8                __vector_40
-                0x000000f8                __vector_8
-                0x000000f8                __vector_26
-                0x000000f8                __vector_48
-                0x000000f8                __vector_14
-                0x000000f8                __vector_53
-                0x000000f8                __vector_10
-                0x000000f8                __vector_50
-                0x000000f8                __vector_16
-                0x000000f8                __vector_18
-                0x000000f8                __vector_20
-                0x000000f8                __vector_42
-                0x000000fa                . = ALIGN (0x2)
+ .text          0x00000122        0x2 D:/ProgrammFilesD/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega2560/avr6/crtatmega2560.o
+                0x00000122                __vector_38
+                0x00000122                __vector_22
+                0x00000122                __vector_28
+                0x00000122                __vector_1
+                0x00000122                __vector_32
+                0x00000122                __vector_34
+                0x00000122                __vector_24
+                0x00000122                __vector_12
+                0x00000122                __vector_55
+                0x00000122                __vector_46
+                0x00000122                __bad_interrupt
+                0x00000122                __vector_6
+                0x00000122                __vector_31
+                0x00000122                __vector_35
+                0x00000122                __vector_39
+                0x00000122                __vector_3
+                0x00000122                __vector_23
+                0x00000122                __vector_30
+                0x00000122                __vector_45
+                0x00000122                __vector_25
+                0x00000122                __vector_11
+                0x00000122                __vector_54
+                0x00000122                __vector_13
+                0x00000122                __vector_17
+                0x00000122                __vector_19
+                0x00000122                __vector_56
+                0x00000122                __vector_7
+                0x00000122                __vector_49
+                0x00000122                __vector_41
+                0x00000122                __vector_43
+                0x00000122                __vector_27
+                0x00000122                __vector_5
+                0x00000122                __vector_33
+                0x00000122                __vector_47
+                0x00000122                __vector_52
+                0x00000122                __vector_37
+                0x00000122                __vector_4
+                0x00000122                __vector_44
+                0x00000122                __vector_51
+                0x00000122                __vector_9
+                0x00000122                __vector_2
+                0x00000122                __vector_21
+                0x00000122                __vector_15
+                0x00000122                __vector_36
+                0x00000122                __vector_29
+                0x00000122                __vector_40
+                0x00000122                __vector_8
+                0x00000122                __vector_26
+                0x00000122                __vector_48
+                0x00000122                __vector_14
+                0x00000122                __vector_53
+                0x00000122                __vector_10
+                0x00000122                __vector_50
+                0x00000122                __vector_16
+                0x00000122                __vector_18
+                0x00000122                __vector_20
+                0x00000122                __vector_42
+                0x00000124                . = ALIGN (0x2)
  *(.text.*)
- .text.main     0x000000fa       0x5e main.o
-                0x000000fa                main
- .text.SD_init  0x00000158       0x3a ServoDriver.o
-                0x00000158                SD_init
+ .text.BM_init  0x00000124       0x1a BM.o
+                0x00000124                BM_init
+ .text.BM_handle_data
+                0x0000013e       0x3c BM.o
+                0x0000013e                BM_handle_data
+ .text.main     0x0000017a        0xc main.o
+                0x0000017a                main
+ .text.SD_init  0x00000186       0x3a ServoDriver.o
+                0x00000186                SD_init
  .text.SD_set_speed
-                0x00000192       0x24 ServoDriver.o
-                0x00000192                SD_set_speed
+                0x000001c0       0x24 ServoDriver.o
+                0x000001c0                SD_set_speed
  .text.SD_set_drive_direction
-                0x000001b6       0x88 ServoDriver.o
-                0x000001b6                SD_set_drive_direction
-                0x0000023e                . = ALIGN (0x2)
+                0x000001e4       0xb2 ServoDriver.o
+                0x000001e4                SD_set_drive_direction
+                0x00000296                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x0000023e        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_exit.o)
-                0x0000023e                _exit
-                0x0000023e                exit
+ .fini9         0x00000296        0x0 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_exit.o)
+                0x00000296                _exit
+                0x00000296                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -304,36 +354,40 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000023e        0x4 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_exit.o)
+ .fini0         0x00000296        0x4 d:/programmfilesd/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_exit.o)
  *(.fini0)
-                0x00000242                _etext = .
+                0x0000029a                _etext = .
 
-.data           0x00800200        0x0 load address 0x00000242
-                [!provide]                PROVIDE (__data_start, .)
+.data           0x00800200        0x2 load address 0x0000029a
+                0x00800200                PROVIDE (__data_start, .)
  *(.data)
  *(.data*)
+ .data.currentDirection
+                0x00800200        0x1 ServoDriver.o
+                0x00800200                currentDirection
  *(.gnu.linkonce.d*)
  *(.rodata)
  *(.rodata*)
  *(.gnu.linkonce.r*)
-                0x00800200                . = ALIGN (0x2)
-                0x00800200                _edata = .
-                [!provide]                PROVIDE (__data_end, .)
+                0x00800202                . = ALIGN (0x2)
+ *fill*         0x00800201        0x1 
+                0x00800202                _edata = .
+                0x00800202                PROVIDE (__data_end, .)
 
-.bss            0x00800200        0x0
-                [!provide]                PROVIDE (__bss_start, .)
+.bss            0x00800202        0x0
+                0x00800202                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
  *(COMMON)
-                [!provide]                PROVIDE (__bss_end, .)
-                0x00000242                __data_load_start = LOADADDR (.data)
-                0x00000242                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00800202                PROVIDE (__bss_end, .)
+                0x0000029a                __data_load_start = LOADADDR (.data)
+                0x0000029c                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x00800200        0x0
+.noinit         0x00800202        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                PROVIDE (__noinit_end, .)
-                0x00800200                _end = .
+                0x00800202                _end = .
                 [!provide]                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
@@ -375,8 +429,9 @@ END GROUP
 
 .comment        0x00000000       0x30
  *(.comment)
- .comment       0x00000000       0x30 main.o
+ .comment       0x00000000       0x30 BM.o
                                  0x31 (size before relaxing)
+ .comment       0x00000030       0x31 main.o
  .comment       0x00000030       0x31 ServoDriver.o
 
 .note.gnu.avr.deviceinfo
@@ -399,51 +454,59 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000       0x50
+.debug_aranges  0x00000000       0x78
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x20 main.o
+                0x00000000       0x28 BM.o
  .debug_aranges
-                0x00000020       0x30 ServoDriver.o
+                0x00000028       0x20 main.o
+ .debug_aranges
+                0x00000048       0x30 ServoDriver.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000      0xf94
+.debug_info     0x00000000     0x1100
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0xbbc D:/ProgrammFilesD/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega2560/avr6/crtatmega2560.o
- .debug_info    0x00000bbc      0x14b main.o
- .debug_info    0x00000d07      0x28d ServoDriver.o
+ .debug_info    0x00000bbc      0x138 BM.o
+ .debug_info    0x00000cf4      0x121 main.o
+ .debug_info    0x00000e15      0x2eb ServoDriver.o
 
-.debug_abbrev   0x00000000      0xcc2
+.debug_abbrev   0x00000000      0xd7c
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0xb1a D:/ProgrammFilesD/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega2560/avr6/crtatmega2560.o
- .debug_abbrev  0x00000b1a       0xcb main.o
- .debug_abbrev  0x00000be5       0xdd ServoDriver.o
+ .debug_abbrev  0x00000b1a       0xc8 BM.o
+ .debug_abbrev  0x00000be2       0xaa main.o
+ .debug_abbrev  0x00000c8c       0xf0 ServoDriver.o
 
-.debug_line     0x00000000      0x487
+.debug_line     0x00000000      0x515
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x1fa D:/ProgrammFilesD/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega2560/avr6/crtatmega2560.o
- .debug_line    0x000001fa      0x11d main.o
- .debug_line    0x00000317      0x170 ServoDriver.o
+ .debug_line    0x000001fa      0x119 BM.o
+ .debug_line    0x00000313       0x6e main.o
+ .debug_line    0x00000381      0x194 ServoDriver.o
 
-.debug_frame    0x00000000       0x68
+.debug_frame    0x00000000       0xa4
  *(.debug_frame)
- .debug_frame   0x00000000       0x24 main.o
- .debug_frame   0x00000024       0x44 ServoDriver.o
+ .debug_frame   0x00000000       0x34 BM.o
+ .debug_frame   0x00000034       0x24 main.o
+ .debug_frame   0x00000058       0x4c ServoDriver.o
 
-.debug_str      0x00000000      0x5b4
+.debug_str      0x00000000      0x5e6
  *(.debug_str)
  .debug_str     0x00000000      0x3e6 D:/ProgrammFilesD/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.6.364/gcc/dev/atmega2560/avr6/crtatmega2560.o
- .debug_str     0x000003e6      0x199 main.o
-                                0x1cd (size before relaxing)
- .debug_str     0x0000057f       0x35 ServoDriver.o
-                                0x1fb (size before relaxing)
+ .debug_str     0x000003e6      0x1a1 BM.o
+                                0x1d5 (size before relaxing)
+ .debug_str     0x00000587       0x19 main.o
+                                0x1d3 (size before relaxing)
+ .debug_str     0x000005a0       0x46 ServoDriver.o
+                                0x20c (size before relaxing)
 
-.debug_loc      0x00000000       0xe9
+.debug_loc      0x00000000       0x83
  *(.debug_loc)
- .debug_loc     0x00000000       0x64 main.o
- .debug_loc     0x00000064       0x85 ServoDriver.o
+ .debug_loc     0x00000000       0x34 BM.o
+ .debug_loc     0x00000034       0x4f ServoDriver.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -463,10 +526,11 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x00000000       0x30
+.debug_ranges   0x00000000       0x48
  *(.debug_ranges)
- .debug_ranges  0x00000000       0x10 main.o
- .debug_ranges  0x00000010       0x20 ServoDriver.o
+ .debug_ranges  0x00000000       0x18 BM.o
+ .debug_ranges  0x00000018       0x10 main.o
+ .debug_ranges  0x00000028       0x20 ServoDriver.o
 
 .debug_macro
  *(.debug_macro)

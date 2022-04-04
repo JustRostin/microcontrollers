@@ -1,4 +1,4 @@
-main.d main.o: .././main.c \
+BM.d BM.o: .././BM.c .././BM.h .././ServoDriver.h \
  d:\programmfilesd\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h \
  d:\programmfilesd\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\sfr_defs.h \
  d:\programmfilesd\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\inttypes.h \
@@ -10,11 +10,13 @@ main.d main.o: .././main.c \
  d:\programmfilesd\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\version.h \
  d:\programmfilesd\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\fuse.h \
  d:\programmfilesd\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h \
- d:\programmfilesd\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h \
  d:\programmfilesd\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h \
  d:\programmfilesd\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
- d:\programmfilesd\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h \
- .././ServoDriver.h .././BM.h
+ d:\programmfilesd\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h
+
+.././BM.h:
+
+.././ServoDriver.h:
 
 d:\programmfilesd\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h:
 
@@ -38,14 +40,8 @@ d:\programmfilesd\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include
 
 d:\programmfilesd\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h:
 
-d:\programmfilesd\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h:
-
 d:\programmfilesd\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h:
 
 d:\programmfilesd\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h:
 
 d:\programmfilesd\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h:
-
-.././ServoDriver.h:
-
-.././BM.h:
